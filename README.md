@@ -38,6 +38,7 @@ This project elevates RL complexity from simple navigation tasks to advanced phy
   1. **Rapid Cognitive Jump (Episodes 0 - 250):** The reward spiked vertically from -150 to ~-40. The neural network rapidly grasped the core physics objective.
   2. **Micro-adjustments (Episodes 250 - 3000):** A steady, oscillating upward trend. The robotic arm spent thousands of episodes fine-tuning the 7-DoF joints down to the millimeter to optimize object manipulation and minimize energy penalties.
 
+<img width="700" height="500" alt="Screenshot 1" src="https://github.com/mohamedarifq8-alt/TD3-MuJoCo-Pusher-7DoF/blob/main/videos/Screenshot%201.png?raw=true" />
 ---
 
 ## 🧠 Core AI & Machine Learning Concepts Explored
