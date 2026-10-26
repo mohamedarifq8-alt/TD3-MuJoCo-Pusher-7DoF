@@ -10,6 +10,9 @@
 This repository provides a complete **Reinforcement Learning (RL)** pipeline for training a highly flexible **7-Degree-of-Freedom (7-DoF) robotic arm** to manipulate objects within the `Pusher-v5` environment. By leveraging the **Twin Delayed DDPG (TD3)** algorithm and the **MuJoCo physics engine**, this project tackles high-dimensional continuous control, dense reward engineering, and action noise injection for advanced robotic manipulation.
 
 ---
+<img width="450" height="350" alt="Screenshot 2" src="https://raw.githubusercontent.com/mohamedarifq8-alt/TD3-MuJoCo-Pusher-7DoF/main/videos/Screenshot%202.png" />
+
+
 ## 🛤️ Deep Reinforcement Learning Journey
 
 This project elevates RL complexity from simple navigation tasks to advanced physical object manipulation using Stable Baselines3:
