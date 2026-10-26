@@ -11,12 +11,15 @@ This repository provides a complete **Reinforcement Learning (RL)** pipeline for
 
 ---
 
+
+
+
 ## 🛤️ Deep Reinforcement Learning Journey
 
 This project elevates RL complexity from simple navigation tasks to advanced physical object manipulation using Stable Baselines3:
 
 ### Phase 1: Environment Anatomy & Version Control
-- **Continuous Control Action Space:** 7 continuous dimensions representing the torque applied to 7 distinct joints (mimicking human arm kinematics), bounded between [-1, 1].
+- **Continuous Control Action Space:** 7 continuous dimensions representing the torque applied to 7 distinct joints (mimicking human arm kinematics), bounded between .
 - **Observation Space:** 23-dimensional feature vector tracking joint angles, joint velocities, cylinder (X, Y) coordinates, and red target (X, Y) coordinates.
 - **Gymnasium Version Conflict Resolution:** Addressed the classic `mujoco<3` version dependency conflict with `Pusher-v4`. Engineered a clean migration to `Pusher-v5` to maintain compatibility with modern physics simulators without degrading server-side environments.
 
